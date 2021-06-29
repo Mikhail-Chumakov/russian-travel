@@ -5,6 +5,7 @@
   padding-right: 48px;
   padding-left: 48px;
   background: #2A2C2F;
+  padding-top: 28px;
 /*   max-width: 1184px;
   min-width: 288px; */
   }
@@ -32,6 +33,7 @@
 
   @media screen and (max-width: 320px) {
     .header {
+      padding-top: 16px;
       padding-right: 16px;
       padding-left: 16px;
     }
