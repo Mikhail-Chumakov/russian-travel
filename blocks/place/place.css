@@ -1,13 +1,12 @@
 .place {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   max-width: 984px;
   max-height: 660px;
   margin-bottom: 80px;
   column-gap: 40px;
-
 }
 
 .place:last-child {
@@ -24,17 +23,19 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: 928px;
-    max-height: 640px;
+    width: 100%;
+/*     max-width: 928px;
+    max-height: 640px; */
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
+    width: 100%;
     margin-bottom: 73px;
-    max-width: 720px;
-    max-height: 581px;
+/*     max-width: 720px;
+    max-height: 581px; */
     column-gap: 28px;
   }
 }
@@ -42,7 +43,7 @@
 @media screen and (max-width: 320px) {
   .place {
     margin-bottom: 50px;
-    max-width: 320px;
+    width: 100%;
     max-height: 1042px;
     flex-wrap:nowrap;
   }

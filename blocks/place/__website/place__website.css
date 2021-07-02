@@ -1,4 +1,4 @@
-.website {
+.place__website {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,3 +9,8 @@
   row-gap: 12px;
 }
 
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-top: 46px;
+  }
+}
