@@ -14,3 +14,10 @@
     margin-top: 46px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    /* order: 1; */
+    margin: 32px 0;
+  }
+}

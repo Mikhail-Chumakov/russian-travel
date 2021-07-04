@@ -1,0 +1,7 @@
+.cover {
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover; /* на весь экран растягиваем */
+  background-position: center; /* выравниваем картинку фона */
+  max-width: 1184px; /* вместо медиа запроса пишем - максимальная ширина по макету */
+  width: 100%; /* что бы занимал весь блок */
+}
