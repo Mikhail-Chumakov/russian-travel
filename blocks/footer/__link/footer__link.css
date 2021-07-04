@@ -1,7 +1,7 @@
 .footer__link {
   text-decoration: none;
   padding-left: 18px;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -16,6 +16,5 @@
 @media screen and (max-width: 320px) {
   .footer__link {
     padding: 0;
-    column-gap: 32px;
   }
 }

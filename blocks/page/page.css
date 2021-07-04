@@ -3,7 +3,8 @@
   min-width: 320px;
   margin: 0 auto;
   background: #2A2C2F;
-
+  font-family: Inter;
+  color: #FFFFFF;
 }
 
 /* @media screen and (max-width: 1280px) {

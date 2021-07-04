@@ -2,7 +2,7 @@
   max-width: 720px;
   height: 200px;
   margin: 0 auto;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -11,13 +11,13 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .lead__title {  
 
-/*     margin-left: 24px;
-    margin-right: 24px; */
+    margin-left: 24px;
+    margin-right: 24px;
   }
-} 
+}  */
 
 @media screen and (min-width: 320px) and (max-width: 767px)  {
   .lead__title {
