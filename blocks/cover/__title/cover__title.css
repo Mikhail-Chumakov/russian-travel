@@ -2,11 +2,12 @@
   /* взяли с фигмы */ 
   font-family: Inter;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 32px;
+  line-height: 35px;
   /* ровняем по perfect pixel */
   margin: 0;
   text-align: center;
+  max-width: 560px;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,9 +17,16 @@
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
   .cover__title {
-  font-size: 32px;
-  line-height: 35px;
+    font-size: 72px;
+    line-height: 76px;
   }
 }
+
+/* @media screen and (min-width: 320px) {
+  .cover__title {
+  font-size: 32px;
+  line-height: 35px; 
+  }
+}*/

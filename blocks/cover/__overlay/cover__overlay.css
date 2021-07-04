@@ -6,6 +6,11 @@
   background: rgba(42, 44, 47, .3); /* #2A2C2F */
   /* opacity: .3; */
   padding: 22px 16px; /* ровняем по perfect pixel */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
 }
 
 .cover__overlay:hover {
@@ -14,18 +19,21 @@
 
 @media screen and (min-width: 1280px) {
   .cover__overlay { 
+    row-gap: 32px;
     padding-top: 280px; /*черз метод наложение perfict pixel высчитываем отступы */
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__overlay { 
+    row-gap: 32px;
     padding: 200px 300px 150px 90px; /*черз метод наложение perfict pixel высчитываем отступы */
   }
 }
 
 @media screen and (min-width: 768px) {
   .cover__overlay { 
+    row-gap: 32px;
     padding: 120px 90px 80px; /*черз метод наложение perfict pixel высчитываем отступы */
   }
 }
