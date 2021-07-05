@@ -1,4 +1,6 @@
 .hover_link:hover {
+  /* width: 100%; */
   background: rgba(42, 44, 47, .8);
   color: rgba(255, 255, 255, 0.8);
+  
 }
