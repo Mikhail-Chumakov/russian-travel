@@ -4,8 +4,6 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   max-width: 984px;
-  /* max-height: max-content; */
-  /* margin-bottom: 80px; */
   column-gap: 40px;
   row-gap: 48px;
   bottom: 0;
@@ -26,8 +24,6 @@
 @media screen and (max-width: 768px) {
   .place {
     width: 100%;
-
-    margin-bottom: 73px;
     column-gap: 28px;
   }
 }
@@ -35,13 +31,11 @@
 @media screen and (max-width: 320px) {
   .place {
     width: 100%;
-    /* max-height: 1042px; */
     height: 100%;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     flex-wrap: nowrap;
     row-gap: 32px;
-    
   }
 }

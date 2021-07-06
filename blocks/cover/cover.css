@@ -10,7 +10,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 92px; */
 }
 
 @media screen and (min-width: 1280px) {
@@ -19,27 +18,26 @@
     margin: 0 auto;
     height: 740px;
     background-size: cover;
-    /* margin: 92px 48px; */
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover {
-    /* max-width: 1024px;
-    margin: 0 auto; */
+    width: 100%;
     height: 640px;
-    /* margin-top: 92px; */
   }
 }
 
-/* @media screen and (min-width: 320px) {
+@media screen and (max-width: 768px) {
   .cover {
-    margin-top: 89px;
+    width: 100%;
+    height: 480px;
   }
-} */
+}
 
-/* @media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .cover {
-    margin-top: 66px;
+    width: 100%;
+    height: 200px;
   }
-} */
+}

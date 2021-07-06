@@ -1,27 +1,11 @@
 .cover__overlay {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  display: block;
-  background: rgba(42, 44, 47, .3);
-  max-width: 1184px;
-  /* height: max-content !important; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  row-gap: 32px;
-  color: rgb(255, 255, 255);
-}
-
-@media screen and (max-width: 1280px) {
-  .cover__overlay { 
-    max-width: 1184px;
+    text-decoration: none;
+    display: block;
+    background: rgba(42, 44, 47, .3);
     width: 100%;
-    height: 100%; 
-    
-    /* height: max-content; */
-    /* row-gap: 32px; */
-    /* padding-top: 280px; */ /*черз метод наложение perfict pixel высчитываем отступы */
-  }
+    height: 100%;
+    row-gap: 32px;
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,8 +14,7 @@
     height: 640px;
     width: 100%;
     height: 100%; 
-    /* row-gap: 32px; */
-    /* padding: 200px 300px 150px 90px; */ /*черз метод наложение perfict pixel высчитываем отступы */
+    row-gap: 32px;
   }
 }
 
@@ -40,8 +23,7 @@
     max-width: 768px;
     width: 100%;
     height: 100%;    
-    /* row-gap: 32px; */
-    /* padding: 120px 90px 80px; */ /*черз метод наложение perfict pixel высчитываем отступы */
+    row-gap: 32px;
   }
 }
 
