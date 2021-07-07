@@ -1,26 +1,19 @@
 .place__img {
   max-width: 460px;
-  max-height: 460px;
+  /* max-height: 460px; */
 }
-
-/* @media screen and (max-width: 1280px) {
-  .place__img {
-
-  }
-} */
 
 @media screen and (max-width: 1024px) {
   .place__img {
     width: 440px;
-    height: 440px;
+    /* height: 440px; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__img {
     width: 340px;
-    height: 340px;
-
+   /*  height: 340px; */
   }
 }
 
@@ -28,7 +21,7 @@
   .place__img {
     width: 100%;
     object-fit: cover;
-    height: 320px;
+    /* height: 320px; */
     /* order: 2; */
     /* margin-bottom: 32px; */
   }
