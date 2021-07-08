@@ -4,7 +4,6 @@
   background-position: center; /* выравниваем картинку фона */
   max-width: 1184px; /* вместо медиа запроса пишем - максимальная ширина по макету */
   width: 100%;
-  max-width: 1184px;
   min-height: 740px;
   margin: 0 auto;
   display: flex;
