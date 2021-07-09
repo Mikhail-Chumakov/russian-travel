@@ -1,4 +1,4 @@
 .hover-link:hover {
-  background: rgba(42, 44, 47, .8);
-  color: rgba(255, 255, 255, 0.8);
+  opacity: .8;
+  /* color: rgba(255, 255, 255, .8); */
 }

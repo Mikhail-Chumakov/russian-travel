@@ -1,11 +1,15 @@
 .cover__overlay {
     text-decoration: none;
     display: block;
+    color: #FFFFFF;
     background: rgba(42, 44, 47, .3);
     width: 100%;
     min-height: 740px;
-    row-gap: 32px;
-    color: #FFFFFF;
+    /* row-gap: 32px; */
+}
+
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, .8);
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,7 +17,7 @@
     /* width: 100%; */
     min-height: 640px;
     /* height: 100%; */
-    row-gap: 32px;
+    
   }
 }
 
@@ -24,7 +28,6 @@
     margin: 0 auto;
     min-height: 480px;
     /* height: 100%; */
-    row-gap: 32px;
   }
 }
 

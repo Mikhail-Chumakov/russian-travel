@@ -1,13 +1,15 @@
 .lead__img {
   max-width: 984px;
+  width: 100%;
+  margin: 0 auto  ;
   margin-top: 64px;
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
   .lead__img {
     margin-top: 64px;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .lead__img {
@@ -16,16 +18,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .lead__img {
     width: 100%;
     margin-top: 56px;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .lead__img {
-    width: 100%;
+    /* width: 100%; */
     margin-top: 40px;
   }
 }
