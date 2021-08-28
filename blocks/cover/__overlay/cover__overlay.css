@@ -1,6 +1,9 @@
 .cover__overlay {
     text-decoration: none;
     display: block;
+ /*    display: flex;
+    flex-direction: column; */
+    align-items: center;
     color: #FFFFFF;
     background: rgba(42, 44, 47, .3);
     width: 100%;
@@ -14,28 +17,22 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    /* width: 100%; */
     min-height: 640px;
-    /* height: 100%; */
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    /* max-width: 1184px; */
-    /* width: 100%; */
     margin: 0 auto;
     min-height: 480px;
-    /* height: 100%; */
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__overlay {
-    /* max-width: 320px; */
     min-height: 200px;
-    /* width: 100%; */
-    /* height: 100%; */
   }
 }

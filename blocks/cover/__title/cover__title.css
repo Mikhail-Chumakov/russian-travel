@@ -1,7 +1,7 @@
 .cover__title {
   width: calc(100% - 2 * 16px);
   margin: 0 auto;
-  padding-top: 33px;
+  /* padding-top: 33px; */
   padding-bottom: 16px;
   font-style: normal;
   font-weight: 900;
@@ -13,7 +13,7 @@
 @media screen and (min-width: 768px) {
   .cover__title {
     width: calc(100% - 2 * 104px);
-    padding-top: 115px;
+    /* padding-top: 115px; */
     padding-bottom: 32px;
     font-style: normal;
     font-size: 72px;
@@ -24,7 +24,7 @@
 @media screen and (min-width: 1024px) {
   .cover__title {
     width: calc(100% - 2 * 232px);
-    padding-top: 195px;
+    /* padding-top: 195px; */
   }
 }
 
